@@ -1,0 +1,36 @@
+name: Debug
+author: Cynex
+author_link: https://github.com/cynex-k
+category: reverse
+difficulty: medium
+description: |
+  > Do you think you can Debug this program you better think TWICE.
+  > Attachment : 
+[Chall](https://drive.google.com/file/d/15q12wsQoBQIJBFRfAYjGzUFm7Sp7L0mK/view?usp=share_link)
+  **Author** : Cynex
+flags:
+  - AlphaCTF{x0R_pTR4c3_w1tH0ut_bR3ak!_m4n_g00dJOb}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Reverse
+tags:
+  - REV
+  - Elf
+  
+
+
+
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+

@@ -1,0 +1,28 @@
+name: Traffic
+author: Cynex
+author_link: https://github.com/cynex-k
+category: forensics
+difficulty: medium
+description: |
+  > we captured this weird comunications
+  > can you investigate what is happening here......     
+  > Attachment : [chall.pcapng](https://drive.google.com/file/d/1dh0eLkrETbpHQoOiAP8TLyNjTCAu8K1u/view?usp=share_link)
+  **Author** : Cynex
+flags:
+  - AlphaCTF{iCmP_M4g1c}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Network
+tags:
+  - Network
+  - Ping
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

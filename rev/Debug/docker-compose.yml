@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  server:
+    build: ./challenge
+    ports:
+      - 1301:1337
+    restart: always
+

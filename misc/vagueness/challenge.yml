@@ -1,0 +1,28 @@
+name: vagueness
+author: Cynex
+author_link: https://github.com/cynex-k
+category: misc
+difficulty: medium
+description: |
+  > We are a company that made embedded system we are suspecting that there is a spy among us who is leaking our product but we did not get  a proof, until one day we get this message we believe that is some password used for encrypt communication between the spy and his organization help us recover this password
+  > NOTE: the flag format : AlphaCTF{Decoded_message} 
+  > Attachment: [Secret.zip](https://drive.google.com/file/d/1bAvdzZFAn_mz0QLhmZfdLFj888YBvgpQ/view?usp=share_link) 
+
+  **Author** : Cynex
+flags:
+  - AlphaCTF{O0ps_my_m3N_3y3s_0N_my_spy}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Cipher
+tags:
+  - misc
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

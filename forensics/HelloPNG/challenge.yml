@@ -1,0 +1,33 @@
+name: HelloPNG
+author: Cynex
+author_link: https://github.com/cynex-k
+category: forensics
+difficulty: medium
+description: |
+  >I build this image from scratch and applied a FILTER
+  >
+  >I bet you know PNG better than me
+  >
+  > can you reveal the secret from this ......
+  > Attachment: 
+[Challenge.png](https://drive.google.com/file/d/1FOlRi5wkrd6xzI88nq4MVs3TOt33w2zT/view)  
+	
+  **Author** : Cynex
+flags:
+  - AlphaCTF{f1Lter5_b1T_fun}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - PNG
+tags:
+  - PNG
+  - IDAT
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

@@ -1,0 +1,30 @@
+name: Breach
+author: Cynex
+author_link: https://github.com/cynex-k
+category: forensics
+difficulty: hard
+description: |
+  > hurry up !! We get hacked, our forensics team was able to capture network traffic and the malware. 
+  > But they didn't know what happened. 
+  > Use your investigation skills to figure it out.    
+
+  **Author** : Cynex
+flags:
+  - AlphaCTF{i_hoP3_Y0U_l3arN3d_H0w_liNuX_h4NdLE_InpUt$}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Forensics
+tags:
+  - Rev
+  - forensics
+  - Programming
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

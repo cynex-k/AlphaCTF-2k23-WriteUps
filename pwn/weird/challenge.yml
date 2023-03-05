@@ -1,0 +1,26 @@
+name: "weird"
+author: "Cynex"
+author_link: "https://github.com/cynex-k"
+
+category: pwn
+difficulty: easy
+
+description: |
+  > numbers are weird when it comes to programming.. 
+  > Attachment: [weird](https://drive.google.com/file/d/1uoolLGsNvJtOIPZpEuG9Y4_gum9YgDSF/view?usp=share_link)
+ 
+  **Author** : Cynex
+  
+connection_info: nc -v challenges.ctf.alphabit.club 1204
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 25
+  minimum: 50
+
+flags:
+  - AlphaCTF{1nT3g3R_OVerfL0w_w1TH_W3iRD_flOA7}
+state: hidden
+
+version: "0.1"
